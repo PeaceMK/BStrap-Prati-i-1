@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: #E9ECEF;
+      } /* Ödev için bunu istediler. */
+
+      #linkler {
+        background-color: rgb(27, 25, 25);
+      } /*Örnekte nav BG'si için ne kullanılıyor bakmadım ama ben bunu tercih ettim*/
+    </style>
+  </head>
+  <body>
+    <nav id="linkler" class="container">
+      <div class="row">
+      <a class="col-sm-3" href="/anasayfa.html"><h4 class="text-danger">SteamPopular</h4></a>
+      <a class="col-sm-3" href="/anasayfa.html"><h4 class="text-light">Anasayfa</h6></a>
+      <a class="col-sm-3" href="/oyunlarlistesi.html"><h4 class="text-light">Oyunlar</h6></a>
+      <a class="col-sm-3" href="/hakkımda.html"><h4 class="text-light">Hakkımda</h6></a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="row">
+        <div class="card col-sm-3 mx-auto mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1641233427" alt="Card image cap">
+          <div class="d-flex flex-column card-body"><!--Kartlardaki <a> butonlarını sağ aşşağı sabitlemek için DIV'i flex'e dönüştürmem gerekiyormuş.-->
+            <h5 class="card-title">Counter-Strike: Global Offensive</h5>
+            <p class="card-text">Counter-Strike: Global Offensive (CS: GO), 19 yıl önce ilk çıktığında öncülük ettiği takım tabanlı aksiyon oyununu bir üst seviyeye taşıyor. CS:GO yeni haritalar, karakterler, silahlar ve oyun modları, ayrıca klasik CS içeriğinin (de_dust2 vb.) güncellenmiş sürümlerini sunuyor.</p>
+            <a target="_blank" href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" class="mt-auto align-self-end btn btn-primary">Steam Sayfası</a>
+          </div>
+        </div>
+      
+        <div class="card col-sm-3 mx-auto mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg?t=1666237243" alt="Card image cap">
+          <div class="d-flex flex-column card-body"><!--Kartlardaki <a> butonlarını sağ aşşağı sabitlemek için DIV'i flex'e dönüştürmem gerekiyormuş.-->
+            <h5 class="card-title">Dota 2</h5>
+            <p class="card-text">Her gün, dünya çapındaki milyonlarca oyuncu yüzden fazla Dota kahramanından birisiyle savaşa giriyor. Oynama süreniz ister 10 saati isterse 1000 saati bulsun, her zaman keşfedilecek yeni bir şeyler vardır.</p>
+            <a target="_blank" href="https://store.steampowered.com/app/570/Dota_2/" class="mt-auto align-self-end btn btn-primary">Steam Sayfası</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-3 mx-auto mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1599340/header.jpg?t=1666630324" alt="Card image cap">
+          <div class="d-flex flex-column card-body"><!--Kartlardaki <a> butonlarını sağ aşşağı sabitlemek için DIV'i flex'e dönüştürmem gerekiyormuş.-->
+            <h5 class="card-title">Lost Ark</h5>
+            <p class="card-text">Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat in this action-packed free-to-play RPG.</p>
+            <a target="_blank" href="https://store.steampowered.com/app/1599340/Lost_Ark/" class="mt-auto align-self-end btn btn-primary">Steam Sayfası</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-3 mx-auto mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg?t=1666770016" alt="Card image cap">
+          <div class="d-flex flex-column card-body"><!--Kartlardaki <a> butonlarını sağ aşşağı sabitlemek için DIV'i flex'e dönüştürmem gerekiyormuş.-->
+            <h5 class="card-title">PUBG: BATTLEGROUNDS</h5>
+            <p class="card-text">PUBG: BATTLEGROUNDS'u ücretsiz oynayın. Stratejik konumlara iniş yapın, silahları ve malzemeleri yağmalayın, çeşitli ve geniş Savaş Alanlarında hayatta kalan son takım olmak için mücadele edin.</p>
+            <a target="_blank" href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/" class="mt-auto align-self-end btn btn-primary">Steam Sayfası</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="card col-sm-3 mx-auto mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1664305070" alt="Card image cap">
+          <div class="d-flex flex-column card-body"><!--Kartlardaki <a> butonlarını sağ aşşağı sabitlemek için DIV'i flex'e dönüştürmem gerekiyormuş.-->
+            <h5 class="card-title">Grand Theft Auto V</h5>
+            <p class="card-text">Grand Theft Auto V'in PC sürümü, oyunculara 4k ve ötesinde çözünürlükle ve saniyede 60 kare tazeleme hızıyla Los Santos ve Blaine County dünyasını keşfetme fırsatını sunuyor..</p>
+            <a target="_blank" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" class="mt-auto align-self-end btn btn-primary">Steam Sayfası</a>
+          </div>
+        </div>
+      
+        <div class="card col-sm-3 mx-auto mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn.akamai.steamstatic.com/steam/apps/1172470/header.jpg?t=1664321959" alt="Card image cap">
+          <div class="d-flex flex-column card-body"><!--Kartlardaki <a> butonlarını sağ aşşağı sabitlemek için DIV'i flex'e dönüştürmem gerekiyormuş.-->
+            <h5 class="card-title">Apex Legends™</h5>
+            <p class="card-text">Respawn Entertainment imzalı Apex Legends, ödüllü ve ücretsiz oynanan bir Kahraman nişancı oyunudur. Güçlü yeteneklere sahip efsanevi karakterlerden oluşan ve genişleyen kadronun ustası olun, stratejik takım oyununu ve yeni nesil Kahraman Nişancı ve Battle Royale’in yenilikçi oynanışını deneyimleyin</p>
+            <a target="_blank" href="https://store.steampowered.com/app/1172470/Apex_Legends/" class="mt-auto align-self-end btn btn-primary">Steam Sayfası</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-3 mx-auto mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn.akamai.steamstatic.com/steam/apps/1203220/header.jpg?t=1660835947" alt="Card image cap">
+          <div class="d-flex flex-column card-body"><!--Kartlardaki <a> butonlarını sağ aşşağı sabitlemek için DIV'i flex'e dönüştürmem gerekiyormuş.-->
+            <h5 class="card-title">NARAKA: BLADEPOINT</h5>
+            <p class="card-text">NARAKA: BLADEPOINT dövüş sanatları tarzında yakın çarpışmalar, yerçekimine meydan okuyan hareketler, geniş bir yakın ve menzilli silah koleksiyonu, destansı becerileri olan ve özelleştirilebilir efsanevi kahramanlar ile 60 oyuncuya kadar oynanabilen aksiyon dolu mitolojik bir deneyim sunar</p>
+            <a style="text-align: right;" target="_blank" href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/" class="align-self-end mt-auto align-self-end btn btn-primary">Steam Sayfası</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-3 mx-auto mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="https://cdn.akamai.steamstatic.com/steam/apps/440/header.jpg?t=1665425286" alt="Card image cap">
+          <div class="d-flex flex-column card-body"><!--Kartlardaki <a> butonlarını sağ aşşağı sabitlemek için DIV'i flex'e dönüştürmem gerekiyormuş.-->
+            <h5 class="card-title">Team Fortress 2</h5>
+            <p class="card-text">Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!</p>
+            <a target="_blank" href="https://store.steampowered.com/app/440/Team_Fortress_2/" class="mt-auto align-self-end btn btn-primary">Steam Sayfası</a>
+          </div>
+        </div>
+      </section>
+    </main>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
